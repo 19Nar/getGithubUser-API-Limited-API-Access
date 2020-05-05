@@ -1,6 +1,6 @@
 button.onclick = async () => {
 
-    let user_URL = "https://api.github.com/repos/javascript-tutorial/en.javascript.info/commits";
+    let user_URL = "Your_API";
     console.log(user_URL)
     let response = await fetch(user_URL);
     let data = await response.json()
