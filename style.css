@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#results {
+    background-color: transparent;
+    z-index: -1;
+    margin-top: 50px;
+    display: flex;
+}
+
+#backgroundCover {
+    height: 200px;
+    background-image: url("pic.png");
+    background-position: center;
+    background-size: contain;
+    width: 100%;
+    background-repeat: no-repeat;
+}
